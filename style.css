@@ -322,6 +322,26 @@ th {
         padding: 0px;
         margin: 0px;
     }
+    h2 {
+    font-size: 64px;
+    text-align: center;
+    }
+    #max-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .oder-options {
+        padding: 0;
+        font-size: 48px;
+    }
+    .button-option {
+        padding-bottom: 120px;
+        gap: 16px;
+    }
+    .container {
+        padding-bottom: 0;
+    }
 }
 
 
