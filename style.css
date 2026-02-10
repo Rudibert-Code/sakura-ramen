@@ -292,7 +292,7 @@ th {
         display: flex;
         flex-direction: column;
     }
-    .navigation-link{
+    .quick-link{
         display: none;
     }
     .button{
