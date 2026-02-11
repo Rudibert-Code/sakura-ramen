@@ -269,6 +269,7 @@ p {
 }
 
 #right {
+    flex-direction: row-reverse;
     justify-content: end;
 }
 
@@ -323,8 +324,12 @@ th {
         margin: 0px;
     }
     h2 {
-    font-size: 64px;
+    font-size: 40px;
     text-align: center;
+    }
+    .logo-order {
+        width: 112px;
+        height: 112px;
     }
     #max-container {
         display: flex;
@@ -336,10 +341,14 @@ th {
         font-size: 48px;
     }
     .button-option {
-        padding-bottom: 120px;
-        gap: 16px;
+        padding-bottom: 32px;
+        gap: 8px;
+        a{
+            margin: 0px;
+        }
     }
     .container {
+        padding-top: 72px;
         padding-bottom: 0;
     }
     .dishes {
@@ -349,7 +358,7 @@ th {
         align-items: center;
     }
     #right {
-        justify-content: start;
+        flex-direction: column;
     }
     h3{
         font-size: 48px;
